@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Text Converter</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="generator-wrapper">
+      <h1 class="title">Text Converter</h1>
+      <ul class="options">
+        <li><input type="radio" id="default" name="type" value="default" checked>
+          <label for="default">Default</label></li>        
+        <li><input type="radio" id="sarcastic" name="type" value="sarcastic">
+        <label for="sarcastic">Sarcastic</label></li>
+        <li><input type="radio" id="pig-latin" name="type" value="pig-latin">
+        <label for="pig-latin">Pig Latin</label></li>
+        <li><input type="radio" id="scramble" name="type" value="scramble">
+        <label for="scramble">Scramble Words</label></li>              
+      </ul>
+      <textarea></textarea>
+    </div>
+    <h1 class="title output">Output</h1>
+    <div class="result">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
